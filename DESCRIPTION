@@ -6,7 +6,7 @@ Authors@R:
 Description: Provides functions for learning about your R libraries and
     the packages you have installed.
 License: MIT + file LICENSE
-URL: https://github.com/deepshamenghani/libminer
+URL: https://github.com/deepshamenghani/libminer, https://deepshamenghani.github.io/libminer/
 BugReports: https://github.com/deepshamenghani/libminer/issues
 Imports: 
     fs (>= 1.5.0) 
