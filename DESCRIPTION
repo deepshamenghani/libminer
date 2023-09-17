@@ -2,17 +2,17 @@ Package: libminer
 Title: Explore Your R libraries
 Version: 0.0.0.9000
 Authors@R: 
-    person("Deepsha", "Menghani", , "deepshamenghani07@gmail.com", role = c("aut", "cre"),
-           )
-Description: Provides functions for learning about your R libraries and the packages you have installed.
+    person("Deepsha", "Menghani", , "deepshamenghani07@gmail.com", role = c("aut", "cre"))
+Description: Provides functions for learning about your R libraries and
+    the packages you have installed.
 License: MIT + file LICENSE
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
 URL: https://github.com/deepshamenghani/libminer
 BugReports: https://github.com/deepshamenghani/libminer/issues
+Imports: 
+    fs (>= 1.5.0) 
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-Imports: 
-    fs (>= 1.5.0)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
