@@ -4,16 +4,19 @@
 \alias{lib_summary}
 \title{R library summary}
 \usage{
-lib_summary()
+lib_summary(sizes = FALSE)
+}
+\arguments{
+\item{sizes}{logical indicating whether or not to calculate library sizes, Default FALSE}
 }
 \value{
 A 'data.frame' containing the count of packages in each
-of the users libraries
+of the users libraries and size of the libraries
 }
 \description{
 Provide the brief summary of package
 libraries on your machine
 }
 \examples{
-lib_summary()
+lib_summary(sizes = TRUE)
 }
